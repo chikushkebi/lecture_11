@@ -1,0 +1,139 @@
+/* s-1 style */
+
+.s-1 {
+  margin-top: 57px;
+  margin-bottom: 50px;
+}
+.conteiner {
+  margin: 0 auto;
+  max-width: 1146px;
+  width: 95%;
+  /* border: 2px solid red; */
+}
+.textbox1 {
+  margin-bottom: 57px;
+}
+.s-1 h2 {
+  color: #5863e3;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+.s-1 h1 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 373px;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+.textareadiv {
+  /* border: 1px solid red; */
+  max-width: 756px;
+  width: 70%;
+}
+textarea {
+  width: 100%;
+  height: 298px;
+  flex-shrink: 0;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  padding: 20px;
+  resize: none;
+  color: #99999a;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.flexdiv1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 370px;
+  height: 59px;
+  flex-shrink: 0;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  padding-left: 18px;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  color: #99999a;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+input[type="submit"] {
+  width: 370px;
+  height: 59px;
+  flex-shrink: 0;
+  background: #5968f4;
+  border: none;
+  color: #fbfbff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* s-2 style */
+.flexdiv2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flexdiv2 div {
+  display: flex;
+  gap: 8px;
+  width: 226px;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+.flexdiv2 i {
+  width: 68px;
+  height: 68px;
+  font-size: 30px;
+  flex-shrink: 0;
+  color: #344188;
+  background-color: #5968f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.flexdiv2 h1 {
+  color: #4e4d54;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.flexdiv2 a {
+  color: #99999a;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
