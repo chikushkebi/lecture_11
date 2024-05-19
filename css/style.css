@@ -29,11 +29,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 373px;
+  max-width: 373px;
+  width: 95%;
 }
 form {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
 }
 .textareadiv {
   /* border: 1px solid red; */
@@ -94,11 +96,15 @@ input[type="submit"] {
 }
 
 /* s-2 style */
+.s-2 {
+  margin-bottom: 100px;
+}
 .flexdiv2 {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 50px;
 }
 .flexdiv2 div {
   display: flex;
@@ -136,4 +142,117 @@ input[type="submit"] {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+/* s-3 style */
+.s-3 {
+  margin-bottom: 40px;
+}
+.s-3 h2 {
+  color: #5863e3;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s-3 h1 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 555px;
+  width: 95%;
+}
+.conteiner2 {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1318px;
+}
+.flexdiv3 {
+  margin-top: 53px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.flexdiv3 img {
+  max-width: 373px;
+  width: 100%;
+}
+
+/* footer style */
+footer {
+  background-color: #000;
+  padding-top: 63px;
+  padding-bottom: 176px;
+}
+.flexdiv4 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footerdiv-1 h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+.footerdiv-1 p {
+  color: #99999a;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 295px;
+}
+.footerdiv-2 h1,
+.footerdiv-3 h1,
+.footerdiv-4 h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.flexdiv4 li {
+  margin-bottom: 9px;
+}
+.flexdiv4 a {
+  color: #5863e3;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footerdiv-4 li {
+  margin-bottom: 19px;
+}
+.footerdiv-4 a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footerdiv-4 i {
+  color: #344188;
+  margin-right: 14px;
+}
+.s-4 img {
+  margin-right: 7px;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
 }
